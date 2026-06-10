@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "震惊小人",
+    "category": "人物表情",
+    "desc": "适合用在反转、惊讶、爆笑类短视频中。",
+    "preview": "./assets/images/preview-1.svg",
+    "download": "./assets/downloads/demo-material.zip",
+    "tags": ["震惊", "表情", "搞笑"]
+  },
+  {
+    "id": 2,
+    "title": "狂奔小人",
+    "category": "人物动作",
+    "desc": "适合跑路、追赶、逃跑、赶时间等沙雕剧情。",
+    "preview": "./assets/images/preview-2.svg",
+    "download": "./assets/downloads/demo-material.zip",
+    "tags": ["跑步", "动作", "沙雕"]
+  },
+  {
+    "id": 3,
+    "title": "灵魂问号",
+    "category": "表情符号",
+    "desc": "适合疑惑、懵逼、不理解场景。",
+    "preview": "./assets/images/preview-3.svg",
+    "download": "./assets/downloads/demo-material.zip",
+    "tags": ["问号", "懵逼", "表情"]
+  },
+  {
+    "id": 4,
+    "title": "搞笑锤子",
+    "category": "道具素材",
+    "desc": "适合夸张打击、吐槽、制裁类动画桥段。",
+    "preview": "./assets/images/preview-4.svg",
+    "download": "./assets/downloads/demo-material.zip",
+    "tags": ["道具", "锤子", "夸张"]
+  }
+]
