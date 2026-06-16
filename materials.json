@@ -34,5 +34,23 @@
     "preview": "./assets/images/preview-4.svg",
     "download": "./assets/downloads/demo-material.zip",
     "tags": ["道具", "锤子", "夸张"]
+  },
+  {
+    "id": 5,
+    "title": "宋江",
+    "category": "水浒传",
+    "desc": "《水浒传》主角宋江角色素材，适合人物介绍、剧情分镜和专题展示。",
+    "preview": "./assets/images/水浒传/GPT宋江.png",
+    "download": "./assets/downloads/demo-material.zip",
+    "tags": ["水浒传", "宋江", "梁山", "人物"]
+  },
+  {
+    "id": 6,
+    "title": "鲁智深",
+    "category": "水浒传",
+    "desc": "《水浒传》人物鲁智深角色素材，适合人物介绍、剧情分镜和专题展示。",
+    "preview": "./assets/images/水浒传/GPT鲁智深.png",
+    "download": "./assets/downloads/demo-material.zip",
+    "tags": ["水浒传", "鲁智深", "梁山", "人物"]
   }
 ]
