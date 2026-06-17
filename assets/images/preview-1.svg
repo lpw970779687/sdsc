@@ -1,1 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"><rect width="500" height="500" rx="42" fill="#fff1a6"/><circle cx="250" cy="210" r="88" fill="#fff" stroke="#111" stroke-width="14"/><circle cx="215" cy="195" r="12" fill="#111"/><circle cx="285" cy="195" r="12" fill="#111"/><ellipse cx="250" cy="245" rx="35" ry="45" fill="#111"/><path d="M105 120l52 48M395 120l-52 48M250 42v72" stroke="#111" stroke-width="18" stroke-linecap="round"/><text x="250" y="405" text-anchor="middle" font-size="52" font-family="Arial" font-weight="900" fill="#111">震惊!</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 960" role="img" aria-label="沙雕动画素材预览">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ff9a3c" />
+      <stop offset="100%" stop-color="#ff5f6d" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="18" flood-color="#000000" flood-opacity="0.22" />
+    </filter>
+  </defs>
+  <rect width="960" height="960" rx="56" fill="url(#bg)" />
+  <circle cx="182" cy="182" r="118" fill="#ffffff" fill-opacity="0.16" />
+  <circle cx="774" cy="776" r="176" fill="#ffffff" fill-opacity="0.12" />
+  <rect x="130" y="144" width="700" height="672" rx="48" fill="#ffffff" fill-opacity="0.18" filter="url(#shadow)" />
+  <rect x="188" y="214" width="584" height="96" rx="28" fill="#ffffff" fill-opacity="0.18" />
+  <text x="480" y="548" text-anchor="middle" font-size="220" font-family="Segoe UI Emoji, Apple Color Emoji, sans-serif">🎬</text>
+  <text x="480" y="676" text-anchor="middle" fill="#ffffff" font-size="54" font-family="Noto Sans SC, PingFang SC, Microsoft YaHei, sans-serif" font-weight="700">沙雕动画素材库</text>
+  <text x="480" y="734" text-anchor="middle" fill="#ffffff" fill-opacity="0.9" font-size="28" font-family="Noto Sans SC, PingFang SC, Microsoft YaHei, sans-serif">免费 · 原创 · 可下载</text>
+</svg>
