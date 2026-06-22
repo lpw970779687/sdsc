@@ -13,7 +13,6 @@
       <a class="logo" href="#home">沙雕素材库</a>
       <div class="nav-links">
         <a href="#materials">素材</a>
-        <a href="#license">授权</a>
         <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
       </div>
     </nav>
@@ -22,10 +21,9 @@
       <div class="hero-text">
         <p class="badge">原创 · 免费 · 可下载</p>
         <h1>免费沙雕动画素材分享站</h1>
-        <p class="subtitle">这里收集我自己绘制的沙雕动画人物、表情、动作、道具和背景素材，适合短视频、动画剪辑、表情包和搞笑创作。</p>
+        <p class="subtitle">这里收集我自己绘制的《水浒传》和《西游记》相关人物素材，适合短视频、动画剪辑和专题展示。</p>
         <div class="hero-actions">
           <a class="btn primary" href="#materials">浏览素材</a>
-          <a class="btn ghost" href="#license">查看授权</a>
         </div>
       </div>
       <div class="hero-card">
@@ -35,58 +33,29 @@
   </header>
 
   <main>
-    <section class="stats">
-      <div><strong id="totalCount">0</strong><span>个素材</span></div>
-      <div><strong>免费</strong><span>下载使用</span></div>
-      <div><strong>原创</strong><span>持续更新</span></div>
-    </section>
-
     <section id="materials" class="materials-section">
       <div class="section-title">
         <h2>素材列表</h2>
-        <p>搜索关键词，或者按照分类筛选。</p>
+        <p>搜索关键词，或者按照《水浒传》《西游记》分类筛选。</p>
       </div>
 
       <div class="toolbar">
-        <input id="searchInput" type="search" placeholder="搜索：震惊、跑步、表情、道具..." />
+        <input id="searchInput" type="search" placeholder="搜索：宋江、鲁智深、西游记..." />
         <div id="categoryButtons" class="categories"></div>
       </div>
 
       <div id="materialGrid" class="grid"></div>
-      <p id="emptyText" class="empty hidden">没有找到相关素材。</p>
+      <div id="emptyText" class="empty hidden"></div>
     </section>
 
-    <section id="license" class="license-section">
-      <h2>使用授权</h2>
-      <div class="license-card">
-        <h3>允许</h3>
-        <p>免费下载、个人创作、短视频剪辑、表情包制作、非商业展示。</p>
-        <h3>不允许</h3>
-        <p>倒卖素材包、批量搬运到其他素材站、冒充原创、用于违法违规内容。</p>
-        <p class="tip">正式上线前，你可以根据自己的需求修改这里的授权说明。</p>
-      </div>
-    </section>
   </main>
 
   <footer class="footer">
     <p>© <span id="year"></span> 沙雕动画素材库 · Powered by GitHub Pages</p>
+    <p class="footer-note">注意事项：素材仅供个人创作和非商业展示使用，禁止倒卖、批量搬运或冒充原创。</p>
   </footer>
 
-  <div id="modal" class="modal hidden" aria-hidden="true">
-    <div class="modal-backdrop" data-close="true"></div>
-    <div class="modal-content">
-      <button class="modal-close" data-close="true">×</button>
-      <img id="modalImage" src="" alt="素材预览" />
-      <div class="modal-info">
-        <p id="modalCategory" class="badge"></p>
-        <h2 id="modalTitle"></h2>
-        <p id="modalDesc"></p>
-        <div id="modalTags" class="tag-list"></div>
-        <a id="modalDownload" class="btn primary" href="#" download>下载素材</a>
-      </div>
-    </div>
-  </div>
-
+  <script src="./js/materials-data.js"></script>
   <script src="./js/app.js"></script>
 </body>
 </html>

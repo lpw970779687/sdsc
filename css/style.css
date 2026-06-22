@@ -90,30 +90,12 @@ img { max-width: 100%; display: block; }
   transform: rotate(2deg);
 }
 
-.stats {
-  max-width: 1180px;
-  margin: 24px auto;
-  padding: 0 24px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-}
-.stats div {
-  background: var(--card);
-  border: 1px solid var(--line);
-  border-radius: 24px;
-  padding: 22px;
-  box-shadow: var(--shadow);
-}
-.stats strong { display: block; font-size: 28px; }
-.stats span { color: var(--muted); }
-
-.materials-section, .license-section {
+.materials-section {
   max-width: 1180px;
   margin: 70px auto;
   padding: 0 24px;
 }
-.section-title h2, .license-section h2 { font-size: 38px; margin-bottom: 8px; }
+.section-title h2 { font-size: 38px; margin-bottom: 8px; }
 .section-title p { color: var(--muted); }
 .toolbar { margin: 28px 0; display: grid; gap: 16px; }
 #searchInput {
@@ -150,70 +132,68 @@ img { max-width: 100%; display: block; }
   transition: transform .15s ease;
 }
 .card:hover { transform: translateY(-4px); }
-.thumb { aspect-ratio: 1 / 1; background: #fff3b7; display: grid; place-items: center; padding: 20px; }
+.thumb {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  background: #fff3b7;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  overflow: hidden;
+}
+.thumb img { position: relative; z-index: 1; }
+.thumb-watermark {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 2;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: rgba(17, 17, 17, 0.82);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
 .card-body { padding: 16px; }
 .card h3 { margin: 8px 0 8px; font-size: 18px; }
 .card p { margin: 0; color: var(--muted); line-height: 1.6; font-size: 14px; }
 .tag-list { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
 .tag { font-size: 12px; color: #555; background: #f4f4f4; padding: 5px 9px; border-radius: 999px; }
 .empty { text-align: center; color: var(--muted); padding: 40px; }
+.empty-state {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--muted);
+  background: #fff;
+  border: 2px solid var(--line);
+  border-radius: 24px;
+  padding: 32px 24px;
+  box-shadow: var(--shadow);
+}
+.empty-state h1 {
+  margin: 0 0 8px;
+  color: var(--text);
+}
+.empty-state p {
+  margin: 0 0 18px;
+  line-height: 1.8;
+}
 .hidden { display: none !important; }
 
-.license-card {
-  background: #fff;
-  border: 2px solid #111;
-  border-radius: 28px;
-  padding: 28px;
-  box-shadow: 7px 7px 0 #111;
-}
-.license-card h3 { margin: 18px 0 8px; }
-.license-card p { color: var(--muted); line-height: 1.8; }
-.tip { background: #fff8d0; padding: 12px 14px; border-radius: 14px; }
 .footer { text-align: center; color: var(--muted); padding: 36px 20px; }
-
-.modal {
-  position: fixed;
-  inset: 0;
-  display: grid;
-  place-items: center;
-  z-index: 100;
+.footer-note {
+  max-width: 1180px;
+  margin: 10px auto 0;
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--muted);
 }
-.modal-backdrop { position: absolute; inset: 0; background: rgba(0,0,0,.45); }
-.modal-content {
-  position: relative;
-  width: min(920px, calc(100% - 32px));
-  max-height: 90vh;
-  overflow: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 24px;
-  padding: 24px;
-  background: #fff;
-  border: 3px solid #111;
-  border-radius: 28px;
-  box-shadow: 10px 10px 0 #111;
-}
-.modal-content img { background: #fff3b7; border-radius: 20px; padding: 20px; }
-.modal-close {
-  position: absolute;
-  right: 14px;
-  top: 10px;
-  width: 36px;
-  height: 36px;
-  border: 0;
-  border-radius: 50%;
-  background: #111;
-  color: #fff;
-  font-size: 24px;
-  cursor: pointer;
-}
-.modal-info { padding-top: 26px; }
-.modal-info p { color: var(--muted); line-height: 1.8; }
 
 @media (max-width: 900px) {
-  .hero, .modal-content { grid-template-columns: 1fr; }
+  .hero { grid-template-columns: 1fr; }
   .grid { grid-template-columns: repeat(2, 1fr); }
-  .stats { grid-template-columns: 1fr; }
 }
 @media (max-width: 560px) {
   .site-header { padding: 12px; }
@@ -221,9 +201,8 @@ img { max-width: 100%; display: block; }
   .nav-links { gap: 12px; font-size: 14px; flex-wrap: wrap; }
   .hero { margin-top: 28px; gap: 20px; }
   .subtitle { font-size: 16px; }
-  .stats { gap: 12px; }
-  .materials-section, .license-section { margin: 56px auto; }
-  .section-title h2, .license-section h2 { font-size: 30px; }
+  .materials-section { margin: 56px auto; }
+  .section-title h2 { font-size: 30px; }
   .section-title { margin-bottom: 8px; }
   .toolbar { margin: 20px 0; }
   #searchInput { padding: 14px 16px; }
