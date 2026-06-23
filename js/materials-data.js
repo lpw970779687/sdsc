@@ -54,6 +54,33 @@ window.MaterialsData = (() => {
       preview: './assets/images/水浒传/GPT孙二娘.png',
       download: './assets/downloads/demo-material.zip',
       tags: ['水浒传', '孙二娘', '梁山', '人物']
+    },
+    {
+      id: 7,
+      title: '公孙胜',
+      category: '水浒传',
+      desc: '《水浒传》人物公孙胜角色素材，适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/GPT公孙胜.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '公孙胜', '梁山', '人物']
+    },
+    {
+      id: 8,
+      title: '卢俊义',
+      category: '水浒传',
+      desc: '《水浒传》人物卢俊义角色素材，适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/GPT卢俊义.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '卢俊义', '梁山', '人物']
+    },
+    {
+      id: 9,
+      title: '吴用',
+      category: '水浒传',
+      desc: '《水浒传》人物吴用角色素材，适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/GPT吴用.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '吴用', '梁山', '人物']
     }
   ];
 
