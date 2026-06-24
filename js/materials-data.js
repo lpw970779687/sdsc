@@ -81,6 +81,114 @@ window.MaterialsData = (() => {
       preview: './assets/images/水浒传/GPT吴用.png',
       download: './assets/downloads/demo-material.zip',
       tags: ['水浒传', '吴用', '梁山', '人物']
+    },
+    {
+      id: 10,
+      title: '关胜',
+      category: '水浒传',
+      desc: '《水浒传》人物关胜角色素材，适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/GPT关胜.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '关胜', '梁山', '人物']
+    },
+    {
+      id: 11,
+      title: '林冲',
+      category: '水浒传',
+      desc: '《水浒传》人物林冲角色素材，适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/GPT林冲.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '林冲', '梁山', '人物']
+    },
+    {
+      id: 12,
+      title: '呼延灼',
+      category: '水浒传',
+      desc: '《水浒传》人物呼延灼角色素材，适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/GPT呼延灼.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '呼延灼', '梁山', '人物']
+    },
+    {
+      id: 13,
+      title: '张清',
+      category: '水浒传',
+      desc: '《水浒传》人物张清角色素材，适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/GPT张清.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '张清', '梁山', '人物']
+    },
+    {
+      id: 14,
+      title: '李应',
+      category: '水浒传',
+      desc: '《水浒传》人物李应角色素材，适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/GPT李应.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '李应', '梁山', '人物']
+    },
+    {
+      id: 15,
+      title: '柴进',
+      category: '水浒传',
+      desc: '《水浒传》人物柴进角色素材，适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/GPT柴进.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '柴进', '梁山', '人物']
+    },
+    {
+      id: 16,
+      title: '秦明',
+      category: '水浒传',
+      desc: '《水浒传》人物秦明角色素材，适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/GPT秦明.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '秦明', '梁山', '人物']
+    },
+    {
+      id: 17,
+      title: '董平',
+      category: '水浒传',
+      desc: '《水浒传》人物董平角色素材，适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/GPT董平.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '董平', '梁山', '人物']
+    },
+    {
+      id: 18,
+      title: '花荣',
+      category: '水浒传',
+      desc: '《水浒传》人物花荣角色素材，适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/GPT花荣.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '花荣', '梁山', '人物']
+    },
+    {
+      id: 19,
+      title: '武松（版本2）',
+      category: '水浒传',
+      desc: '《水浒传》人物武松角色素材（版本2），适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/GPT武松1.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '武松', '梁山', '人物', '版本2']
+    },
+    {
+      id: 20,
+      title: '鲁智深（版本2）',
+      category: '水浒传',
+      desc: '《水浒传》人物鲁智深角色素材（版本2），适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/GPT鲁智深1.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '鲁智深', '梁山', '人物', '版本2']
+    },
+    {
+      id: 21,
+      title: '吴用（版本2）',
+      category: '水浒传',
+      desc: '《水浒传》人物吴用角色素材（版本2），适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/GPT吴用2.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '吴用', '梁山', '人物', '版本2']
     }
   ];
 
