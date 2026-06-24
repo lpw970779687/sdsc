@@ -159,16 +159,26 @@ img { max-width: 100%; display: block; }
 .thumb img { position: relative; z-index: 1; }
 .thumb-watermark {
   position: absolute;
-  top: 12px;
-  right: 12px;
+  top: 18px;
+  right: -18px;
+  width: 90px;
+  text-align: center;
   z-index: 2;
-  padding: 5px 10px;
-  border-radius: 999px;
-  background: rgba(17, 17, 17, 0.82);
-  color: #fff;
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 0.08em;
+  padding: 4px 0;
+  display: block;
+  background: rgba(255, 255, 255, 0.96);
+  border-radius: 0;
+  border: 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+  color: #d81f26;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  transform: rotate(45deg);
+  transform-origin: center;
+  pointer-events: none;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  white-space: nowrap;
 }
 .card-body { padding: 16px; }
 .card h3 { margin: 8px 0 8px; font-size: 18px; }

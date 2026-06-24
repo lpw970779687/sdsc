@@ -117,7 +117,11 @@ grid.addEventListener('click', event => {
   const card = event.target.closest('[data-id]');
   if (!card) return;
   const item = state.materials.find(m => String(m.id) === card.dataset.id);
-  if (item) window.location.href = `./detail.html?id=${encodeURIComponent(item.id)}`;
+  if (!item) return;
+
+  const url = `./detail.html?id=${encodeURIComponent(item.id)}`;
+  const opened = window.open(url, '_blank', 'noopener,noreferrer');
+  if (opened) opened.opener = null;
 });
 
 document.querySelector('#year').textContent = new Date().getFullYear();
