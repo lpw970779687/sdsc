@@ -218,6 +218,15 @@ window.MaterialsData = (() => {
       tags: ['水浒传', '杨志', '梁山', '人物']
     },
     {
+      id: 49,
+      title: '杨志（版本2）',
+      category: '水浒传',
+      desc: '《水浒传》人物杨志角色素材（版本2），适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/Gemini杨志.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '杨志', '梁山', '人物', '版本2']
+    },
+    {
       id: 25,
       title: '索超',
       category: '水浒传',
@@ -315,6 +324,123 @@ window.MaterialsData = (() => {
       preview: './assets/images/水浒传/Gemini雷横.png',
       download: './assets/downloads/demo-material.zip',
       tags: ['水浒传', '雷横', '梁山', '人物']
+    },
+    {
+      id: 36,
+      title: '张顺',
+      category: '水浒传',
+      desc: '《水浒传》人物张顺角色素材，适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/Gemini张顺.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '张顺', '梁山', '人物']
+    },
+    {
+      id: 37,
+      title: '阮小七',
+      category: '水浒传',
+      desc: '《水浒传》人物阮小七角色素材，适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/Gemini阮小七.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '阮小七', '梁山', '人物']
+    },
+    {
+      id: 38,
+      title: '杨雄',
+      category: '水浒传',
+      desc: '《水浒传》人物杨雄角色素材，适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/Gemini杨雄.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '杨雄', '梁山', '人物']
+    },
+    {
+      id: 39,
+      title: '石秀',
+      category: '水浒传',
+      desc: '《水浒传》人物石秀角色素材，适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/Gemini石秀.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '石秀', '梁山', '人物']
+    },
+    {
+      id: 40,
+      title: '解珍',
+      category: '水浒传',
+      desc: '《水浒传》人物解珍角色素材，适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/Gemini解珍.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '解珍', '梁山', '人物']
+    },
+    {
+      id: 41,
+      title: '解宝',
+      category: '水浒传',
+      desc: '《水浒传》人物解宝角色素材，适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/Gemini解宝.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '解宝', '梁山', '人物']
+    },
+    {
+      id: 42,
+      title: '燕青',
+      category: '水浒传',
+      desc: '《水浒传》人物燕青角色素材，适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/Gemini燕青.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '燕青', '梁山', '人物']
+    },
+    {
+      id: 43,
+      title: '朱武',
+      category: '水浒传',
+      desc: '《水浒传》人物朱武角色素材，适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/Gemini朱武.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '朱武', '梁山', '人物']
+    },
+    {
+      id: 44,
+      title: '黄信',
+      category: '水浒传',
+      desc: '《水浒传》人物黄信角色素材，适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/Gemini黄信.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '黄信', '梁山', '人物']
+    },
+    {
+      id: 45,
+      title: '孙立',
+      category: '水浒传',
+      desc: '《水浒传》人物孙立角色素材，适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/Gemini孙立.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '孙立', '梁山', '人物']
+    },
+    {
+      id: 46,
+      title: '宣赞',
+      category: '水浒传',
+      desc: '《水浒传》人物宣赞角色素材，适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/Gemini宣赞.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '宣赞', '梁山', '人物']
+    },
+    {
+      id: 47,
+      title: '郝思文',
+      category: '水浒传',
+      desc: '《水浒传》人物郝思文角色素材，适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/Gemini郝思文.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '郝思文', '梁山', '人物']
+    },
+    {
+      id: 48,
+      title: '韩滔',
+      category: '水浒传',
+      desc: '《水浒传》人物韩滔角色素材，适合人物介绍、剧情分镜和专题展示。',
+      preview: './assets/images/水浒传/Gemini韩滔.png',
+      download: './assets/downloads/demo-material.zip',
+      tags: ['水浒传', '韩滔', '梁山', '人物']
     }
   ];
 
